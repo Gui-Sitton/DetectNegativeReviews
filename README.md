@@ -63,7 +63,7 @@ from catboost import CatBoostClassifier
 * In my reviews, all the models I tested performed as well as a random model, as I believe the dataframe was too small to work with and I didn't have enough examples, so it resulted in something like 50% accuracy for all the models.
 
 
-# DetectNegativeReviews
+# Detectar avaliações negativas
 
 ## Introdução
 A Film Junky Union, uma nova comunidade para entusiastas de filmes clássicos, está desenvolvendo um sistema para filtrar e categorizar críticas de filmes. O objetivo é treinar um modelo para detectar automaticamente críticas negativas. Você usará um conjunto de dados de resenhas de filmes do IMDB com rotulagem de polaridade para criar um modelo para classificar as resenhas como positivas e negativas. Ele precisará atingir um valor F1 de pelo menos 0,85.
